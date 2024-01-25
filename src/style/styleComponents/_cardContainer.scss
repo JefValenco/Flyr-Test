@@ -9,4 +9,10 @@
   gap: 5em;
   padding: 30px;
   background-color: $gray10;
+
+  @media (max-width: 550px) {
+    width: 100%;
+    gap: 1em;
+    padding: 0px;
+  }
 }
