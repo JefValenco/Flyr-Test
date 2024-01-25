@@ -1,0 +1,418 @@
+.home_img1 {
+  background-color: $gray10;
+
+  width: 100%;
+}
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home_explore {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding-right: 20px;
+}
+
+.bannerHero {
+  position: absolute;
+
+  z-index: 1;
+  left: 7em;
+  bottom: 15em;
+  list-style-type: none;
+
+  text-align: left;
+
+  @media (max-width: 550px) {
+    left: 3em;
+  }
+}
+
+.bannerHero li {
+  margin-bottom: 5px;
+}
+
+.banner_h1 {
+  font-family: $roboto_black;
+  color: $white;
+  font-size: 58px;
+  font-weight: 500;
+
+  @media (max-width: 550px) {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+.banner_p1 {
+  width: 600px;
+  font-family: $roboto_medium;
+  color: $white;
+  font-size: 20px;
+  font-weight: 300;
+
+  @media (max-width: 550px) {
+    width: 350px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+.home_btn {
+  font-family: $roboto_black;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  width: 150px;
+  padding: 8px;
+  font-size: 2em;
+  border: none;
+  border-radius: 25px;
+  background-color: $tertiary;
+  color: $white;
+  box-sizing: border-box;
+  transition: 0.5s;
+  outline: none;
+
+  &:hover {
+    background-color: $white;
+    color: $secondary;
+  }
+
+  @media (max-width: 900px) {
+    margin-top: 1em;
+  }
+}
+
+.home_section {
+  position: relative;
+  width: 98%;
+  box-sizing: border-box;
+  padding-left: 5vh;
+  padding-right: 20px;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.img3 {
+  width: 80%;
+  @media (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.home_section img {
+  margin-top: -30vh;
+
+  @media (max-width: 550px) {
+    margin-top: 0vh;
+    height: 130vh;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+.home_destinies {
+  width: 98%;
+  box-sizing: border-box;
+  margin-top: 20px;
+
+  @media (max-width: 550px) {
+    padding-right: 20px;
+    padding-left: 4vh;
+  }
+}
+
+.home_our {
+  position: relative;
+  width: 98%;
+  box-sizing: border-box;
+  padding-left: 5vh;
+  padding-right: 20px;
+  margin-top: 20px;
+
+  @media (max-width: 550px) {
+    padding-left: 4vh;
+  }
+}
+
+.discoverList {
+  position: absolute;
+
+  z-index: 1;
+  left: 70em;
+  bottom: 11em;
+  list-style-type: none;
+
+  text-align: left;
+
+  @media (max-width: 550px) {
+    left: 7em;
+    bottom: 5em;
+  }
+}
+
+.discoverList li {
+  margin-bottom: 5px;
+}
+
+.card_title2 {
+  width: 100%;
+  font-size: 3em;
+  font-weight: 900;
+  color: $white;
+}
+.card_title3 {
+  width: 100%;
+  font-size: 3em;
+  font-weight: 300;
+  color: $Color5;
+}
+
+.card_title4 {
+  margin-top: 1em;
+  font-family: $roboto_medium;
+  width: 50%;
+  font-size: 2em;
+  font-weight: 300;
+  color: $white;
+}
+
+.footer {
+  background-color: $gray8;
+  font-family: $roboto_medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4em;
+
+  @media (max-width: 550px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 4em;
+  }
+}
+
+.footer-container img {
+  padding-right: 20em;
+  padding-top: 6em;
+
+  @media (max-width: 550px) {
+    width: 40%;
+    padding-right: 10em;
+
+    margin-left: 4em;
+    margin-bottom: 5em;
+  }
+}
+
+.discoverListFooter {
+  list-style-type: none;
+
+  text-align: left;
+}
+
+.discoverListFooter li {
+  margin-bottom: 5px;
+}
+
+.Footer_h1 {
+  width: 100%;
+  font-size: 2em;
+  font-weight: 900;
+  color: $primary;
+}
+
+.Footer_p1 {
+  font-family: $roboto_medium;
+  width: 100%;
+  font-weight: 300;
+  font-size: 15px;
+  color: $primary;
+}
+
+.Footer_p2 {
+  margin-top: 2em;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900;
+  color: $primary;
+}
+
+.Footer_img {
+  margin-top: 2em;
+
+  @media (max-width: 550px) {
+    margin-top: -3em;
+    margin-left: -4em;
+  }
+}
+
+.navbarNavMobile {
+  background-color: #333;
+}
+
+.ulNavMobile {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 9em;
+  display: flex;
+  align-items: center;
+}
+
+.liNavMobile {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.nav_buttonMobile {
+  border: none;
+  background-color: transparent;
+}
+.mobileNavBar {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+
+.nav_buttonMobile img {
+  width: 30px;
+
+  right: 0;
+
+  position: absolute;
+  top: 20px;
+  left: 3em;
+  z-index: 2;
+}
+
+.nav_logoMobile_small {
+  width: 20%;
+}
+
+.nav_logoMobile_emoji {
+  width: 30px;
+  right: 0;
+
+  position: absolute;
+  top: 1.2em;
+  right: 60px;
+  z-index: 2;
+}
+
+.liNavLanguageMobile {
+  padding-left: 5px;
+  margin-right: 120px;
+}
+
+.emojiMobile {
+  margin-left: 70vh;
+  width: 15px;
+  margin-right: 10px;
+}
+.coveringDiv {
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  left: 0;
+  transition: left 4s ease, opacity 0.3s ease;
+}
+
+.coveringDiv.slideIn {
+  left: 0;
+  opacity: 1;
+}
+
+.coveringDiv.slideOut {
+  left: 100px;
+  opacity: 1;
+}
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: $white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  margin-left: 3em;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+  text-decoration: none;
+  font-family: $roboto_medium;
+  font-weight: 300;
+  font-size: 15px;
+  color: $primary;
+}
+
+.sidenav a:hover {
+  color: $secondary;
+  font-family: $roboto_black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.emojiMenu {
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  z-index: 2;
+}
+
+.divider {
+  border-top: 1px solid $divider;
+  width: 70%;
+  margin: 8px auto;
+}

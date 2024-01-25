@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "offer": "no",
+    "destination": "Chicago",
+    "startingPrice": "$600",
+    "image": "https://i.postimg.cc/Kc3YnMcy/chicago-2.png"
+  },
+  {
+    "id": "2",
+    "offer": "yes",
+    "destination": "Porto",
+    "startingPrice": "$600",
+    "image": "https://i.postimg.cc/L6B2TkrG/porto-1.png"
+  },
+
+  {
+    "id": "3",
+    "offer": "no",
+    "destination": "Boston",
+    "startingPrice": "$600",
+    "image": "https://i.postimg.cc/PfWgsX2w/mire-1.png"
+  }
+]

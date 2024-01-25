@@ -1,0 +1,87 @@
+body {
+  background: $cardColor;
+  font-size: 0.6em;
+  font-family: $roboto_medium;
+}
+
+.card_content {
+  position: relative;
+
+  width: 100%;
+  height: 282px;
+  border-radius: 10px;
+
+  overflow: hidden;
+  transition: width 0.3s ease-in-out;
+}
+
+@media (min-width: 1300px) {
+  .card_content {
+    width: 350px;
+    height: 282px;
+  }
+
+  .card_content:hover {
+    width: 500px;
+  }
+}
+
+.card_contentImage {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+@media (min-width: 1300px) {
+  .card_contentImage {
+    width: 350px;
+    height: 282px;
+  }
+
+  .card_contentImage:hover {
+    width: 500px;
+  }
+}
+
+.card_contentDetails {
+  position: relative;
+
+  pointer-events: none;
+}
+
+.discoverListCard {
+  position: absolute;
+
+  z-index: 1;
+  right: 4em;
+  bottom: 3em;
+  list-style-type: none;
+
+  text-align: right;
+}
+
+.discoverListCard li {
+  margin-bottom: 5px; /* Add padding for additional spacing if necessary */
+}
+
+.decimal {
+  font-size: 75%; /* Adjust the percentage to make it smaller */
+}
+
+.card_h1 {
+  width: 100%;
+  font-size: 3em;
+  font-weight: 900;
+  color: $white;
+}
+
+.card_p1 {
+  margin-top: 1em;
+  width: 100%;
+  font-weight: 500;
+  font-size: 25px;
+  color: $white;
+}
